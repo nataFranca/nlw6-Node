@@ -32,7 +32,7 @@ class AuthenticateUserService {
     }
 
     //Gerar token
-    const token = sign(
+    const token = sign( 
       {
         email: user.email
       }, 
